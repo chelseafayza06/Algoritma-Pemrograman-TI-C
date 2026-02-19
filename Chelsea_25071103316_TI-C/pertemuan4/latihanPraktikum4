@@ -1,0 +1,23 @@
+# Membuat program menghitung luas persegi panjang
+
+class KalkulatorLuas:
+    def __init__(self):
+        pass
+
+    def hitung_luas(self):
+        try:
+            panjang = float(input("Masukkan panjang: ")) #setiap input harus ada kayak float atau int
+            lebar = float(input("Masukkan lebar: "))
+            
+            luas = panjang * lebar
+            print("Luas persegi panjang adalah:", luas)
+
+        except ValueError:
+            print("Terjadi kesalahan: Input harus berupa angka!")
+
+        finally:
+            print("Program selesai dijalankan.")
+
+# untuk menjalankan isi class
+obj = KalkulatorLuas()
+obj.hitung_luas() 
