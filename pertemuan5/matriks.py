@@ -9,3 +9,5 @@ A = [[1,2,3],
 
 list(zip(*A))
 print(A)
+
+matriks

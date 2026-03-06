@@ -96,7 +96,7 @@ B = [[1, 2, 3],
      [7, 8, 9]]
 
 print('det(A):', determinan_3x3(A))
-print('det(B):', determinan_3x3(B))
+print('det(B):', determinan_3x3(B)) 
 
 
 

@@ -5,4 +5,4 @@ def pangkat_rekursif(a, b):
         return a * pangkat_rekursif(a, b - 1)
 
 # Contoh
-print(pangkat_rekursif(2, 5))
+print(pangkat_rekursif(2, 5)) 
